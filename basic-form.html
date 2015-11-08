@@ -1,0 +1,148 @@
+﻿<!doctype html>
+<html lang='en-US'>
+<head>
+  <meta charset='utf-8'>
+  <title>jquery-steps</title>
+
+  <link rel="stylesheet" href="css/jquery.steps.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/jquery-2.0.3.min.js"></script>
+  
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/additional-methods.min.js"></script>
+
+  <script src="js/jquery.steps.min.js"></script>
+
+  <script src="js/custom.js"></script>
+</head>
+
+<body>
+
+<form id="survey-form" action="#">
+    <div>
+        <h3>Step</h3>
+        <section>
+            <div id="surgery" style="text-align: center;">
+              <label class="qlabel">Did you or a loved have surgery to implant an IVC blood clot filter?</label>
+
+              <input type="radio" class="required" name="surgery" value="yes" id="surgery_yes">
+              <label class="alabel" for="surgery_yes">Yes</label>
+              
+              <input type="radio" name="surgery" value="no" id="surgery_no" >  
+              <label class="alabel" for="surgery_no">No</label>
+            </div>
+        </section>
+
+        <h3>Step</h3>
+        <section>
+            <div id="year" style="text-align: center;">
+              <label class="qlabel">Did the surgery to implant the IVC blood clot filter take place in 2003 or later?</label>
+
+              <input type="radio" class="required" name="year" value="yes" id="year_yes">
+              <label class="alabel" for="year_yes">Yes</label>
+              
+              <input type="radio" name="year" value="no" id="year_no" >  
+              <label class="alabel" for="year_no">No</label>
+            </div>
+        </section>
+    </div>
+</form>
+
+<br/><hr/><br/>
+
+<div id="featured">
+    <form id="contact-form" class="invisible" action="#" method="post" name="mcmreachform">
+      <input id="successurl" type="hidden" name="successurl" value="http://BloodClotFilterAlert.com/thanks/" /> 
+      <input id="failedurl" type="hidden" name="failedurl" value="http://BloodClotFilterAlert.com/regrets/" />
+
+      <p style="margin: 0; padding: 0; visibility: hidden;display:none;">
+        <a class="scroll" name="form"></a>
+      </p>
+
+      <div id="formopen">
+        Good news!
+      </div>
+
+      <p id="formintro">Based on your answers, we are happy to offer you a FREE Blood Clot Filter Case Evaluation. Call 
+        <strong>800-940-3365</strong> or send us your contact information below&mdash;one of our Blood Clot Filter intake specialists will contact you soon:
+      </p>
+
+      <p>
+        <input type="hidden" name="campaign" value="473" /> 
+        <input type="hidden" name="return" value="http://BloodClotFilterAlert.com/thanks/" />
+      </p>
+
+      <p><noscript></p>
+      <h3>NOTE: JavaScript is required to use this form.</h3>
+      <p></noscript></p>
+
+      <div class="collection" id="name">
+        <span class="collection_label">Your name:</span> 
+
+        <label for="firstname">
+          <span class="labelhide">First:</span> 
+          <input class="inputbox reqd" id="firstname" type="text" name="fname" placeholder="First (required)" />
+        </label> 
+
+        <label for="lastname"><span class="labelhide">Last:</span> 
+          <input class="inputbox reqd" type="text" name="lname" placeholder="Last (required)" />
+        </label>
+      </div>
+
+      <div class="collection" id="contact">
+        <span class="collection_label">Your contact info:</span> 
+
+        <label for="emailaddress"><span class="labelhide">Email Address:</span> 
+          <input class="inputbox reqd email" id="emailaddress (required)" type="text" name="email" placeholder="Email (required)" />
+        </label> 
+
+        <label for="phonehome"><span class="labelhide">Home Phone:</span> 
+          <input class="inputbox reqd" type="text" name="phone" placeholder="Phone (required)" />
+        </label>
+
+        <label for="text2"><span class="labelhide">ZIP Code:</span> 
+          <input class="inputbox" type="text" name="text2" placeholder="ZIP Code (optional)" />
+        </label>
+      </div>
+
+      <div class="collection" id="whenbest">
+        <span class="collection_label">Best time to reach you:</span>
+        <label><span>Morning</span> <input name="radio1" value="Morning" type="radio"></label>
+        <label><span>Afternoon</span> <input name="radio1" value="Afternoon" type="radio"></label>
+        <label><span>Evening</span> <input name="radio1" value="Evening" type="radio"></label>
+      </div>
+
+      <div class="collection comments">
+        <span class="collection_label">What else can you tell us about your experience?</span> 
+        <label for="comments">
+          <span class="labelhide">Comments:</span> 
+          <textarea class="commentbox" name="comments" placeholder="Comments (optional)"></textarea>
+        </label>
+      </div>
+
+      <div class="collection">
+        <label for="checkbox1">
+          <input class="inputbox borderfix" onclick="CL()" type="checkbox" autocomplete="off" name="checkbox1" onfocus="CL()" />
+          <span class="redtext">*
+          </span> I understand that no attorney-client relationship exists without a specific written retainer agreement between myself and a law firm.
+        </label>
+      </div>
+
+      <div class="collection" id="contact">
+        <input class="submitbtn" type="submit" name="submit" value="Get your FREE Case Evaluation" />
+      </div>
+    </form>
+</div>
+   
+
+<script>
+  /* nothing */
+</script>
+
+<style scoped>
+
+</style>
+
+</body>
+</html>
