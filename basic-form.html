@@ -5,7 +5,7 @@
   <title>jquery-steps</title>
 
   <link rel="stylesheet" href="css/jquery.steps.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main_no.css">
 
   <script src="js/jquery-2.0.3.min.js"></script>
   
@@ -26,11 +26,13 @@
             <div id="surgery" style="text-align: center;">
               <label class="qlabel">Did you or a loved have surgery to implant an IVC blood clot filter?</label>
 
-              <input type="radio" class="required" name="surgery" value="yes" id="surgery_yes">
-              <label class="alabel" for="surgery_yes">Yes</label>
-              
-              <input type="radio" name="surgery" value="no" id="surgery_no" >  
-              <label class="alabel" for="surgery_no">No</label>
+              <div style="padding-top:10px;">
+                <input type="radio" class="required" name="surgery" value="yes" id="surgery_yes">
+                <label class="alabel" for="surgery_yes">Yes</label>
+                
+                <input type="radio" name="surgery" value="no" id="surgery_no" >  
+                <label class="alabel" for="surgery_no">No</label>
+              </div>
             </div>
         </section>
 
@@ -38,12 +40,14 @@
         <section>
             <div id="year" style="text-align: center;">
               <label class="qlabel">Did the surgery to implant the IVC blood clot filter take place in 2003 or later?</label>
-
-              <input type="radio" class="required" name="year" value="yes" id="year_yes">
-              <label class="alabel" for="year_yes">Yes</label>
               
-              <input type="radio" name="year" value="no" id="year_no" >  
-              <label class="alabel" for="year_no">No</label>
+              <div style="padding-top:10px;">
+                <input type="radio" class="required" name="year" value="yes" id="year_yes">
+                <label class="alabel" for="year_yes">Yes</label>
+                
+                <input type="radio" name="year" value="no" id="year_no" >  
+                <label class="alabel" for="year_no">No</label>
+              </div>
             </div>
         </section>
     </div>
