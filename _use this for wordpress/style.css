@@ -1,0 +1,220 @@
+/******************************* WORDPRESS **********************************************/
+
+  #container {
+      max-width: 90%;
+  }
+
+/******************************* CONTACT FORM********************************************/
+
+  .wizard > .content {
+     display: block;
+     min-height: 17em;
+  }
+
+  .wizard > .steps > ul > li {
+     width: 115px;
+     height: 48px;
+  }
+
+  .wizard > .actions > ul {
+    display: block;
+  }
+
+  .qlabel {
+      color: #ba3e00;
+      font-size: 24px;
+      font-weight: normal;
+      line-height: 1.15em;
+      margin: 0.7em 0.5em;
+      padding-bottom: 10px;
+      width: 92%;
+  }  
+
+  .alabel {
+      font-size: 21px;
+      padding-right: 6px;
+  }
+
+  .wizard > .content > .body label.error {
+      color: #ff3111;
+      font-size: 16px;
+      margin-top: -8px;      
+  }
+
+  .wizard > .content > .body input {
+     display: inline;     
+  }
+
+  .wizard > .steps .error a, .wizard > .steps .error a:hover, .wizard > .steps .error a:active {
+      background: #ba3e00;
+  }
+
+  .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active  {
+      padding: 0.5em 1em;
+  }
+
+  label.error {
+      color: #D78C93;
+      font-size: 13px;
+  }
+
+/******************************* SURVEY FORM********************************************/
+
+#featured form {
+    background-color: #F9F9F9;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin: 20px 20px;
+    overflow: hidden;
+    padding: 1em;
+}
+
+#formopen {
+    font-size: 48px;
+    color: #ba3e00;
+    border-bottom: 1px solid #ddd;
+    font-family: latobold;
+    line-height: 1.15em;
+    margin: 0 0 12px 0;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+#featured form #formintro {
+    font-family: "latoregular",Verdana,Geneva,sans-serif;
+    font-size: 17px;
+    padding: 0 12px;
+    line-height: 1.5em;
+}
+
+#featured form .collection {
+    margin: 0.5em 0%;
+    overflow: hidden;
+}
+
+#featured form .collection label {
+    clear: none;
+    display: block;
+    float: left;
+    margin: 0 0.5em .5em 0;
+    width: 48%;
+}
+
+#featured form .collection_label {
+    display: block;
+    float: left;
+    width: 100%;
+    color: #095BA3;
+    font-family: latobold;
+    font-size: 13px;
+}
+
+#featured input[type="text"].invalid {
+    border-color: #D78C93;
+}
+
+#featured input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: verdana;
+    font-size: 13px;
+    box-shadow: none;
+    background: #fff;
+    height: auto;
+    width: 100%;
+}
+
+#featured form #whenbest {
+   margin: 0.5em 0 1em; 
+}
+
+#featured form #whenbest label {
+    width: 22%;
+    float: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0.5em 0 0;
+}
+
+#featured form #whenbest label input {
+    float: left;
+    margin: 0 .5em;
+}
+
+#featured form .commentbox {
+    width: 100%;
+    margin: 0 0.5em .25em 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: verdana;
+    font-size: 13px;
+    box-shadow: none;
+    background: #fff;
+    height: auto;
+}
+
+#featured form .collection label[for="checkbox1"] {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.25em;
+    padding-top: 0;
+    width: 100%;
+}
+
+#featured form .collection label[for="checkbox1"] .inputbox {
+    float: left;
+    margin: 0 0.5em 2em 0;
+    width: 20px;
+}
+
+#featured form .submitbtn, #featured form .submitbtn:hover {
+    font-size: 18px;
+    letter-spacing: normal;
+    padding: 0.5em 0;
+    text-align: center;
+    width: 98%;
+    background: #BA3E00;
+    font-family: "latoblack",Verdana,Geneva,sans-serif;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 33px;
+    border: none;
+    box-shadow: none;
+    -webkit-appearance: none; 
+}
+
+#featured form .submitbtn:hover {
+    background: #DB4900;
+}
+
+#featured-image {
+   margin: 10px 10px;
+}
+
+label {
+    padding: 2px 0;
+    font-weight: 700;
+}
+
+.labelhide {
+    display: none;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 6px 8px;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin: 0;
+    line-height: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+}
